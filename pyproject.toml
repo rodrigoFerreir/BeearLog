@@ -20,6 +20,7 @@ psycopg2-binary = "^2.9.3"
 [tool.poetry.dev-dependencies]
 ipython = "^8.2.0"
 black = {version = "^22.3.0", allow-prereleases = true}
+pytest = "^7.1.2"
 
 [tool.poetry.scripts]
 beerlog = "beerlog.__main__:main"

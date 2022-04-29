@@ -6,7 +6,7 @@ from beerlog.models import Beer
 from beerlog.database import get_session
 
 
-api = FastAPI(title=f'Beerlog')
+api = FastAPI(title="Beerlog")
 
 
 @api.get("/beers", response_model=List[BeerOut])
